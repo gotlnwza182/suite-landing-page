@@ -1,0 +1,23 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1108px;
+    margin: 50px auto 0 auto;
+}
+
+@media only screen and (max-width: 768px) {
+    nav {
+        width: 689px;
+        height: 56px;
+    }
+    
+}
+
+@media only screen and (max-width: 375px) {
+    nav {
+        width: 343px;
+        height: 48px;
+    }
+    
+}
